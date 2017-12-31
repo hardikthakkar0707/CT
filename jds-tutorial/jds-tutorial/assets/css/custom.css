@@ -1,0 +1,325 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(SqueakyChalkSound.woff);
+}
+/*Home Page*/
+.header-top h2{
+	padding-top: 6px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.header-top h4{
+	padding-top: 21px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.custom-wrap,.top-nav,.nav{
+	width: 100%;
+}
+.nav li{
+	padding: 0;
+}
+.nav li a:hover{
+	background: none;
+}
+/*responsive menu*/
+.top-bar{
+	background:#01315A;
+	padding: 5px 0;
+}
+.top-bar img{
+	width: 167px;
+	height: 57px;
+}
+.top-bar h3{
+	color:#fff;
+}
+.contact_info{
+	color:#fff;
+
+	text-align: right;
+}
+.my-menu{
+	padding-top: 0;
+}
+.my-menu .navbar-default{
+	background: none;
+	border: none;
+}
+.navbar-collapse{
+	background: #014279;
+}
+.my-menu .navbar-nav .active a:hover{
+	background-color: #F26522;
+	color:#fff;
+}
+.my-menu .navbar-nav li a:hover{
+	background-color: #F26522;
+	color:#fff;
+}
+.navbar-toggle{
+	background: none;
+	color: #fff;
+}
+.nav-ul li a{
+    color: #fff;
+}
+@media(max-width:768px){
+	.my-menu .pull-right,.nav>li{
+		float: none !important;
+	}
+
+}
+@media(min-width: 768px){
+	.my-menu .pull-right,.nav>li{
+		float: left;
+	}
+}
+@media(max-width:266px){
+	.contact_info{
+		text-align: left;
+	}
+
+
+}
+@media(min-width: 266px)
+{
+	.m-top .col-md-3{
+		margin-bottom: 1%;
+	}
+
+}
+/*Tiker*/
+.marquee {
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	position: relative;
+	background-color: #014279;
+
+    -webkit-box-shadow: inset 0px 2px 2px  rgba(0, 0, 0, .5), 0px 1px 0px  rgba(250, 250, 250, .2);
+    box-shadow: inset 0px 2px 2px  rgba(0, 0, 0, .5), 0px 1px 0px  rgba(250, 250, 250, .2);
+	-webkit-transition: background-color 350ms;
+	-moz-transition: background-color 350ms;
+    transition: background-color 350ms;
+}
+
+.marquee p {
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+    text-shadow: 1px 1px 0px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+	transform:translateX(100%);
+	-moz-transform:translateX(100%);
+	-webkit-transform:translateX(100%);
+}
+.marquee p:nth-child(1) {
+	animation: left-one 20s ease infinite;
+	-moz-animation: left-one 20s ease infinite;
+	-webkit-animation: left-one 20s ease infinite;
+}
+.marquee p:nth-child(2) {
+	animation: left-two 20s ease infinite;
+	-moz-animation: left-two 20s ease infinite;
+	-webkit-animation: left-two 20s ease infinite;
+}
+@-moz-keyframes left-one {
+	0%	{
+		-moz-transform:translateX(100%);
+	}
+	10% {
+		-moz-transform:translateX(0);
+	}
+	40% {
+		-moz-transform:translateX(0);
+	}
+	50% {
+		-moz-transform:translateX(-100%);
+	}
+	100%{
+		-moz-transform:translateX(-100%);
+	}
+}
+@-moz-keyframes left-two {
+	0% {
+		-moz-transform:translateX(100%);
+	}
+	50% {
+		-moz-transform:translateX(100%);
+	}
+	60% {
+		-moz-transform:translateX(0);
+	}
+	90% {
+		-moz-transform:translateX(0);
+	}
+	100%{
+		-moz-transform:translateX(-100%);
+	}
+}
+/** Webkit Keyframes **/
+@-webkit-keyframes left-one {
+	0% {
+		-webkit-transform:translateX(100%);
+	}
+	10% {
+		-webkit-transform:translateX(0);
+	}
+	40% {
+		-webkit-transform:translateX(0);
+	}
+	50% {
+		-webkit-transform:translateX(-100%);
+	}
+	100%{
+		-webkit-transform:translateX(-100%);
+	}
+}
+@-webkit-keyframes left-two {
+	0% {
+		-webkit-transform:translateX(100%);
+	}
+	50% {
+		-webkit-transform:translateX(100%);
+	}
+	60% {
+		-webkit-transform:translateX(0);
+	}
+	90% {
+		-webkit-transform:translateX(0);
+	}
+	100%{
+		-webkit-transform:translateX(-100%);
+	}
+}
+/*Home Page End*/
+/*Student Login Page*/
+.bg{
+	background: url(../images/bg-con.png) no-repeat 0px 0px;
+	background-size: cover;
+
+}
+.staff-con{
+	background: url(../images/bg-con-2.jpg) no-repeat 0px 0px;
+	background-size: cover;
+
+}
+.s-login-bg{
+	background: url(../images/4.jpg) no-repeat 0px 0px;
+	background-size: contain;
+	background-position: center;
+}
+.staff-bg{
+	background: url(../images/staff-bg.jpg) no-repeat 0px 0px;
+	background-size: contain;
+	background-position: center;
+}
+/*Student Login Page End*/
+#video-con{
+	width:100%;
+	height: 600px;
+	overflow:hidden;
+	position: relative;
+}
+video{
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	z-index:-1;
+
+}
+@media only screen and (max-width: 700px) {
+    .result{
+        overflow-x:scroll;
+    }
+    .schedule{
+    	overflow-x: scroll;
+    }
+}
+.heading{
+	    background: #fff;
+	    color:#FA6210;
+}
+.heading h1{
+	text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.m-top{
+	margin-top:5%;
+}
+#chartContainer,.m-bottom{
+	margin-bottom: 5%;
+}
+.result table th{
+	background: #01315A;
+}
+.result table  tr td:first-child{
+	background: #01315A;
+	color:#fff;
+}
+.right{
+	color:#fff;
+}
+.social li{
+	padding: 8px;
+	font-size: 40px;
+	float: left;
+}
+.f-cu{
+	width: 45%;
+}
+.f-cu h3{
+	text-align: center;
+}
+.f-cu h5{
+	color:#fff;
+	text-decoration: underline;
+}
+.m-bottom h3{
+	margin-bottom: 5%;
+}
+.folder{
+	border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: #01315A;
+}
+.folder a{
+	color:#fff;
+}
+.folder a:hover{
+	color:#fff;
+	text-decoration: none;
+}
+#portfolio h2,.m-top h3{
+	background: -moz-linear-gradient(45deg, rgba(1,49,90,1) 5%, rgba(1,49,90,0) 78%, rgba(1,49,90,0) 96%, rgba(1,49,90,0) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(5%, rgba(1,49,90,1)), color-stop(78%, rgba(1,49,90,0)), color-stop(96%, rgba(1,49,90,0)), color-stop(100%, rgba(1,49,90,0))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(1,49,90,1) 5%, rgba(1,49,90,0) 78%, rgba(1,49,90,0) 96%, rgba(1,49,90,0) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(1,49,90,1) 5%, rgba(1,49,90,0) 78%, rgba(1,49,90,0) 96%, rgba(1,49,90,0) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(1,49,90,1) 5%, rgba(1,49,90,0) 78%, rgba(1,49,90,0) 96%, rgba(1,49,90,0) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(1,49,90,1) 5%, rgba(1,49,90,0) 78%, rgba(1,49,90,0) 96%, rgba(1,49,90,0) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01315A', endColorstr='#01315A',GradientType=1 ); /* ie6-9 */
+	color: #fff;
+	padding: 10px;
+}
+.m-top table{
+	margin-top: 5%;
+}
+.table-bordered th{
+	font-weight: bold;
+}

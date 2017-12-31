@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tution Classes | Admin</title>
+    <?php $this->load->view("head"); ?>
+    <style type="text/css">
+        .time{
+            padding: 10px;
+        }
+        .box{
+            width: 37px;
+        }
+    </style>
+    </head>
+    <body>
+    <!--  wrapper -->
+    <div id="wrapper">
+        <!-- navbar top -->
+        <?php $this->load->view("top"); ?>
+        
+        <div id="page-wrapper" style="margin: 84px 0 0 0;">
+            <a href="" class="btn">Back</a><br>
+            <form method="post">
+            <select class="form-input">
+                <option selected="selected">Standerd</option>
+                <option value="1st">1<sup>st</sup></option>
+                <option value="2nd">2<sup>nd</sup></option>
+                <option value="3rd">3<sup>rd</sup></option>
+                <option value="4th">4<sup>th</sup></option>
+                <option value="5th">5<sup>th</sup></option>
+                <option value="6th">6<sup>th</sup></option>
+                <option value="7th">7<sup>th</sup></option>
+                <option value="8th">8<sup>th</sup></option>
+                <option value="9th">9<sup>th</sup></option>
+                <option value="10th">10<sup>th</sup></option>
+                <option value="11th">11<sup>th</sup></option>
+                <option value="12th">12<sup>th</sup></option>
+            </select>
+            <table border="1" class="table table-bordered dataTable">
+                <tr>
+                    <th>No</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><span>Subject</span>
+                            <select name="Mo1">
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="MoT1" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="MoT-T1" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="TueT1" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="TueT-T1" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="WeT1" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="WeT-T1" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="ThuT1" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="ThuT-T1" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="FriT1" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="FriT-T1" class="box" placeholder="To">
+
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="SatT1" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="SatT-T1" class="box" placeholder="To">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><span>Subject</span>
+                            <select name="Mo2">
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="MoT2" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="MoT-T2" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="TueT2" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="TueT-T2" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="WeT2" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="WeT-T2" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="ThuT2" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="ThuT-T2" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="FriT2" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="FriT-T2" class="box" placeholder="To">
+
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="SatT2" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="SatT-T2" class="box" placeholder="To">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><span>Subject</span>
+                            <select name="Mo3">
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="MoT3" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="MoT-T3" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="TueT3" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="TueT-T3" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="WeT3" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="WeT-T3" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="ThuT3" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="ThuT-T3" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="FriT3" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="FriT-T3" class="box" placeholder="To">
+
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="SatT3" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="SatT-T3" class="box" placeholder="To">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><span>Subject</span>
+                            <select name="Mo4">
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="MoT4" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="MoT-T4" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="TueT4" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="TueT-T4" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="WeT4" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="WeT-T4" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="ThuT4" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="ThuT-T4" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="FriT4" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="FriT-T4" class="box" placeholder="To">
+
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="SatT4" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="SatT-T4" class="box" placeholder="To">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><span>Subject</span>
+                            <select name="Mo5">
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="MoT5" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="MoT-T5" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="TueT5" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="TueT-T5" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="WeT5" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="WeT-T5" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="ThuT5" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="ThuT-T5" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="FriT5" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="FriT-T5" class="box" placeholder="To">
+
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="SatT5" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="SatT-T5" class="box" placeholder="To">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><span>Subject</span>
+                            <select name="Mo6">
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="MoT6" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="MoT-T6" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="TueT6" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="TueT-T6" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="WeT6" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="WeT-T6" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="ThuT6" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="ThuT-T6" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="FriT6" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="FriT-T6" class="box" placeholder="To">
+
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="SatT6" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="SatT-T6" class="box" placeholder="To">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                       <td><span>Subject</span>
+                            <select name="Mo7">
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="MoT7" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="MoT-T7" class="box">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="TueT7" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="TueT-T7" class="box" placeholder="To"> 
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="WeT7" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="WeT-T7" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="ThuT7" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="ThuT-T7" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="FriT7" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="FriT-T7" class="box" placeholder="To">
+
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="SatT7" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="SatT-T7" class="box" placeholder="To">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><span>Subject</span>
+                            <select name="Mo8">
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="MoT8" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="MoT8" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="TueT8" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="TueT8" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="WeT8" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="WeT8" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="ThuT8" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="ThuT-T8" class="box" placeholder="To">
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="FriT8" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="FriT-T8" class="box" placeholder="To">
+
+                        </td>
+                        <td><span>Subject</span>
+                            <select>
+                                <option>zxcvbnmasdfg</option>
+                            </select><br>
+                            <span class="time">Time</span><input type="text" name="SatT8" class="box" placeholder="Time">
+                            <span class="time">To</span><input type="text" name="SatT-T8" class="box" placeholder="To">
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" name="btn" class="btn btn-primary" value="Save">
+            </form>
+        </div>
+
+        <!-- end page-wrapper -->
+    </div>
+    <!-- end wrapper -->
+
+    <!-- Core Scripts - Include with every page -->
+    <?php $this->load->view("footer"); ?>
+    </body>
+    </html>
+
+
+
+
+
+  
