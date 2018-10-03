@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ::-moz-selection { background-color: #E13300; color: white; }
 
 body {
-	background-color: #fff;
+	background-color: #f0f0f0;
 	margin: 40px;
 	font: 13px/20px normal Helvetica, Arial, sans-serif;
 	color: #4F5155;
@@ -36,11 +36,11 @@ h1 {
 code {
 	font-family: Consolas, Monaco, Courier New, Courier, monospace;
 	font-size: 12px;
-	background-color: #f9f9f9;
+	background-color: #faf8fa;
 	border: 1px solid #D0D0D0;
 	color: #002166;
 	display: block;
-	margin: 14px 0 14px 0;
+	margin: 16px 0 16px 0;
 	padding: 12px 10px 12px 10px;
 }
 
@@ -51,7 +51,7 @@ code {
 }
 
 p {
-	margin: 12px 15px 12px 15px;
+	margin: 16px 24px 16px 24px;
 }
 </style>
 </head>
